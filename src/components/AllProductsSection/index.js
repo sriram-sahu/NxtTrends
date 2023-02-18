@@ -230,7 +230,7 @@ class AllProductsSection extends Component {
     const {activeCategoryId, searchInput, activeRatingId} = this.state
 
     return (
-      <div className="all-products-section">
+      <div className="all-products-sections">
         <FiltersGroup
           searchInput={searchInput}
           categoryOptions={categoryOptions}
